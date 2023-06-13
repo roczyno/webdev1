@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script
+      src="https://kit.fontawesome.com/ad4f657312.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Roczyno</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="logo" data-aos="fade-right">Roczyno</div>
+        <ul class="nav-list" data-aos="flip-left">
+          <li class="nav-item">Home</li>
+          <li class="nav-item">About</li>
+          <li class="nav-item">Services</li>
+          <li class="nav-item">Pages</li>
+          <li class="nav-item">Blog</li>
+          <li class="nav-item">Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <section class="main" data-aos="fade-up" data-aos-delay="1000">
+      <div class="wrapper">
+        <div class="main-left">
+          <img src="./images/img.jpg" alt="" />
+        </div>
+        <div class="main-right">
+          <div class="container">
+            <span class="intro">Hello everybody I am</span>
+            <h1 class="name">
+              Adiaba <br />
+              Roczyno
+            </h1>
+            <h2 class="role">FullStack Software Engineer</h2>
+            <p class="desc">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
+              delectus dignissimos consectetur vero voluptatem, minus nulla
+              laboriosam porro accusantium odit?
+            </p>
+            <div class="info">
+              <div class="info-item">
+                <i class="fa-regular fa-calendar-days icons"></i>
+                <span>31st December, 1992</span>
+              </div>
+              <div class="info-item">
+                <i class="fa-solid fa-phone icons"></i>
+                <span>(233) 548562559</span>
+              </div>
+              <div class="info-item">
+                <i class="fa-solid fa-envelope icons"></i>
+                <span>adiabajacob9@gmail.com</span>
+              </div>
+              <div class="info-item">
+                <i class="fa-solid fa-house icons"></i>
+                <span>Ucc, Cape Coast</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services">
+      <div class="services-wrapper">
+        <h1 class="service-title" data-aos="fade-up">My Services</h1>
+        <div class="service">
+          <div class="service-item" data-aos="fade-right">
+            <img src="./images/dev.svg" alt="" />
+            <span>Frontend development</span>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi,
+              neque?
+            </p>
+          </div>
+          <div class="service-item" data-aos="flip-up">
+            <img src="./images/design.svg" alt="" />
+            <span>Backend development</span>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi,
+              neque?
+            </p>
+          </div>
+          <div class="service-item" data-aos="fade-left">
+            <img src="./images/development.svg" alt="" />
+            <span>FullStack development</span>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi,
+              neque?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        delay: 200,
+        duration: 1500,
+        once: false,
+        mirror: false,
+      });
+    </script>
+  </body>
+</html>
